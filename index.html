@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Left Panel Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div id="left-panel">
+        <ul>
+            <li><a href="#home-content" class="active" onclick="showContent('home-content')"><i
+                        class="fas fa-home"></i>&nbsp;&nbsp; Home</a></li>
+            <li><a href="#contact-content" onclick="showContent('contact-content')"><i
+                        class="fas fa-address-book"></i>&nbsp;&nbsp; Contact</a></li>
+            <li><a href="#info-content" onclick="showContent('info-content')"><i
+                        class="fas fa-info-circle"></i>&nbsp;&nbsp; Information</a></li>
+            <li><a href="#guide-content" onclick="showContent('guide-content')"><i class="fas fa-book"></i>&nbsp;&nbsp;
+                    Guide</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <div id="home-content" class="tab-content">
+            <h2>Home</h2>
+            <p>Welcome to the home page!</p>
+        </div>
+        <div id="contact-content" class="tab-content">
+            <h2>Contact</h2>
+            <p>Contact information goes here.</p>
+        </div>
+        <div id="info-content" class="tab-content">
+            <h2>Information</h2>
+            <p>Additional information goes here.</p>
+        </div>
+        <div id="guide-content" class="tab-content">
+            <h2>Guide</h2>
+            <p>Guide information goes here.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
